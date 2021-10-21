@@ -44,7 +44,7 @@
                 {% if uploaded_image %}
                 <img
                     src="{{ url_for('send_uploaded_image', filename=uploaded_image) }}"
-                    class="mt-8 mb-4 h-48 border-8 border-gray-200"
+                    class="mt-8 mb-4 h-48 border-8 border-gray-200 rounded-md"
                 />
                 {% else %}
                 <div
